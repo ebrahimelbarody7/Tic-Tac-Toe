@@ -22,6 +22,7 @@ function end(n1,n2,n3){
         document.querySelector(`.container .num${n1}`).style.backgroundColor="black"
         document.querySelector(`.container .num${n2}`).style.backgroundColor="black"
         document.querySelector(`.container .num${n3}`).style.backgroundColor="black"
+        document.querySelector("audio").play()
         data.forEach((e)=>{
             e.style.pointerEvents="none"
         })
